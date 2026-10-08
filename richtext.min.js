@@ -1,4 +1,4 @@
-﻿/*!
+/*!
  * RichText component v1.0.3
  *
  * @author Serge Galich <gaserge@mail.ru>
