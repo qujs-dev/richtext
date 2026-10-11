@@ -25,7 +25,7 @@
 /* Стили для тулбара */
 [data-qu-richtext-toolbar] {
     display: flex;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
     gap: 2px 0;
     align-items: center;
     padding: 4px;
@@ -37,6 +37,8 @@
 
 /* Кнопки тулбара */
 button[data-qu-richtext-button] {
+    all: unset;
+    box-sizing: border-box;
     margin: 0;
     padding: 6px 12px;
     font-size: 12px;
